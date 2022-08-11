@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -7,24 +7,24 @@ body {
   background-color: rgb(184, 182, 182);
 }
 
-.trybewarts-login{
+.trybewarts-login {
   justify-content: flex-end;
   align-items: center;
 }
 
-.email{
+.email {
   margin-right: 10px;
   padding: 15px;
   border-radius: 20px;
 }
 
-.password{
+.password {
   margin-right: 10px;
   padding: 15px;
   border-radius: 20px;
 }
 
-.entry{
+.entry {
   width: 100px;
   color: white;
   background-color: blueviolet;
@@ -68,17 +68,17 @@ form {
   margin-left: 250px;
 }
 
-#line1 input{
+#line1 input {
   padding: 15px;
   border-radius: 20px;
 }
 
-#line2 input{
+#line2 input {
   padding: 15px;
   border-radius: 20px;
 }
 
-#line2 select{
+#line2 select {
   padding: 15px;
   border-radius: 20px;
 }
@@ -87,10 +87,11 @@ form {
   display: flex;
 }
 
-#q1{
+#q1 {
   flex-basis: 27%;
 }
 
-#q2{
+#q2 {
   margin-left: 70px;
 }
+
