@@ -10,6 +10,7 @@ body {
 .trybewarts-login {
   justify-content: flex-end;
   align-items: center;
+  display: flex;
 }
 
 .email {
@@ -42,10 +43,6 @@ body {
 
 .trybewarts-header-logo {
   width: 100px;
-}
-
-.trybewarts-login {
-  display: flex;
 }
 
 main {
@@ -95,4 +92,3 @@ form {
 #q2 {
   margin-left: 70px;
 }
-
