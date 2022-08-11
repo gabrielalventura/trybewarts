@@ -3,11 +3,27 @@
   justify-content: space-between;
   background-color: rgb(50, 167, 145);
 }
-
 .trybewarts-header-logo {
-  width: 100px;
+    width: 100px;
 }
 
 .trybewarts-login {
   display: flex;
+}
+
+main {
+  display: flex;
+}
+
+form {
+  display: flex;
+  width: 675px;;
+}
+
+#evaluation-form {
+  flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
 }
