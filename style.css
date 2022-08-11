@@ -1,4 +1,8 @@
 .header {
   display: flex;
+  justify-content: space-between;
   background-color: rgb(50, 167, 145);
+}
+.trybewarts-header-logo {
+    width: 100px;
 }
