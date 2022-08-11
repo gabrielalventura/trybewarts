@@ -1,16 +1,16 @@
-window.onload = function() {
-const email = document.querySelector('.email');
-const password = document.querySelector('.password');
+// eslint-disable-next-line func-names
+window.onload = function () {
+  const email = document.querySelector('.email');
+  const password = document.querySelector('.password');
 
-function fillForm() {
+  function fillForm() {
     if (email.value === 'tryber@teste.com' && password.value === '123456') {
-        alert('Olá, Tryber!');
+      alert('Olá, Tryber!');
     } else {
-        alert('Email ou senha inválidos.');
+      alert('Email ou senha inválidos.');
     }
-}
+  }
 
-const btnEntry = document.querySelector('.entry');
-btnEntry.addEventListener('click', fillForm);
-
-}
+  const btnEntry = document.querySelector('.entry');
+  btnEntry.addEventListener('click', fillForm);
+};
