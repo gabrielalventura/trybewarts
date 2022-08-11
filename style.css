@@ -3,8 +3,9 @@
   justify-content: space-between;
   background-color: rgb(50, 167, 145);
 }
+
 .trybewarts-header-logo {
-    width: 100px;
+  width: 100px;
 }
 
 .trybewarts-login {
@@ -17,7 +18,7 @@ main {
 
 form {
   display: flex;
-  width: 675px;;
+  width: 675px;
 }
 
 #evaluation-form {
