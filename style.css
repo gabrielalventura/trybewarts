@@ -48,6 +48,7 @@ body {
 main {
   display: flex;
   margin-left: 100px;
+  justify-content: space-around;
 }
 
 form {
@@ -56,17 +57,18 @@ form {
   display: flex;
   box-sizing: border-box;
   justify-content: space-between;
-  width: 675px;
   flex-wrap: wrap;
 }
 
 #evaluation-form {
   flex-direction: column;
+  width: 675px;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
-  margin-left: 250px;
+  margin-left: 20px;
+  width: 300px;
 }
 
 #line1 {
