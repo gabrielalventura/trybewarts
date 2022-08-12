@@ -4,13 +4,13 @@
 }
 
 body {
-  background-color: rgb(184, 182, 182);
+  background-color: rgb(230, 227, 227);
 }
 
 .trybewarts-login {
-  display: flex;
   justify-content: flex-end;
   align-items: center;
+  display: flex;
 }
 
 .email {
@@ -51,12 +51,16 @@ main {
 }
 
 form {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
   display: flex;
   box-sizing: border-box;
+  justify-content: space-between;
+  width: 675px;
+  flex-wrap: wrap;
 }
 
 #evaluation-form {
-  width: 675px;
   flex-direction: column;
 }
 
@@ -65,21 +69,81 @@ form {
   margin-left: 250px;
 }
 
+#line1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#line2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 #line1 input {
+  border: 0;
+  width: 45%;
   padding: 15px;
   border-radius: 20px;
 }
 
 #line2 input {
+  width: 50%;
   padding: 15px;
   border-radius: 20px;
 }
 
 #line2 select {
+  width: 250px;
   padding: 15px;
   border-radius: 20px;
 }
 
 #botoes {
   display: flex;
+}
+
+#q1 {
+  flex-basis: 27%;
+}
+
+#q2 {
+  margin-left: 70px;
+}
+
+#comentario {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#textarea {
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid blueviolet;
+}
+
+#submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 10px;
+}
+
+#avalia {
+  display: flex;
+  justify-content: space-between;
+}
+
+#house {
+  border: 0;
+  background-color: white;
+}
+
+#input-email {
+  border: 0;
+}
+
+footer {
+  margin-left: 100px;
 }

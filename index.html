@@ -22,46 +22,78 @@
   <main>
     <form id="evaluation-form">
 
-    <div id="line1">
+      <div id="line1">
         <input id="input-name" placeholder="Nome">
         <input id="input-lastname" placeholder="Sobrenome">
-    </div>
+      </div>
 
-     <div id="line2"> 
+      <div id="line2">
         <input id="input-email" type="email" placeholder="Email">Casa
 
-      <select id="house">
+        <select id="house">
           <option value="Gitnória" id="gitnoria-house">Gitnória</option>
           <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
           <option value="Corvinode" id="corvinode-house">Corvinode</option>
           <option value="Pytherina" id="pytherina-house">Pytherina</option>
-      </select>
-    </div>
-    
-    <div id="botoes">
+        </select>
+      </div>
+      
+      <div id="botoes">
         <div id="q1">
-            <label id="label-family" for="">Qual sua família?</label> <br>
-            <input type="radio" name="family" value="Frontend">Família Frontend <br>
-            <input type="radio" name="family" value="Backend">Família Backend <br>
-            <input type="radio" name="family" value="FullStack">Família FullStack <br>
+          <label id="label-family" for="">Qual sua família?</label> <br>
+          <input type="radio" name="family" value="Frontend">Família Frontend <br>
+          <input type="radio" name="family" value="Backend">Família Backend <br>
+          <input type="radio" name="family" value="FullStack">Família FullStack <br>
         </div>
 
         <div id="q2">
-            <label id="label-content" for=""> Qual conteúdo você está com mais vontade de aprender?</label> <br>
-            <input type="checkbox" class="subject" value="HoFs">HoFs
-            <input type="checkbox" class="subject" value="Jest">Jest
-            <input type="checkbox" class="subject" value="Promises">Promises
-            <input type="checkbox" class="subject" value="React">React
-            <input type="checkbox" class="subject" value="SQL">SQL
-            <input type="checkbox" class="subject" value="Python">Python
+          <label id="label-content" for=""> Qual conteúdo você está com mais vontade de aprender?</label><br>
+          <input type="checkbox" class="subject" value="HoFs">HoFs
+          <input type="checkbox" class="subject" value="Jest">Jest
+          <input type="checkbox" class="subject" value="Promises">Promises
+          <input type="checkbox" class="subject" value="React">React
+          <input type="checkbox" class="subject" value="SQL">SQL
+          <input type="checkbox" class="subject" value="Python">Python
         </div>
-    </div>
+      </div>
+      
+      <div id="avalia">
+        <label id="label-rate" for="">Como você avalia a Trybewarts?</label>
+
+        <input type="radio" name="rate" value="1">1
+        <input type="radio" name="rate" value="2">2
+        <input type="radio" name="rate" value="3">3
+        <input type="radio" name="rate" value="4">4
+        <input type="radio" name="rate" value="5">5
+        <input type="radio" name="rate" value="6">6
+        <input type="radio" name="rate" value="7">7
+        <input type="radio" name="rate" value="8">8
+        <input type="radio" name="rate" value="9">9
+        <input type="radio" name="rate" value="10">10
+
+      </div>
+
+      <div id="comentario">
+        <label class="textarea" for="">Deixe seu comentário:</label>
+        <textarea name="" id="textarea" cols="30" rows="10" maxlength="500" placeholder="Insira aqui"></textarea>
+      </div>
+
+      <div>
+        <label id="label-infos" for="">Você concorda com o uso das informações acima?</label>
+        <input type="checkbox" id="agreement" name="">
+      </div>
+
+      <div>
+        <button type="submit" id="submit-btn" disabled>Enviar</button>
+      </div>
     </form>
 
     <img src="images/trybewarts-colored.svg" id="trybewarts-forms-logo" alt="Logo do Trybe Forms">
 
   </main>
-  <script src="script.js"></script>
+  <br>
+  <footer>Direitos reservados à Trybewarts©</footer>
+  <script src='script.js'></script>
 </body>
 
 </html>
