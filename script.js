@@ -23,4 +23,4 @@ function countingCharacters() {
   counterCha.innerHTML = 500 - count;
 }
 
-theText.addEventListener('keyup', countingCharacters);
+theText.addEventListener('keypress', countingCharacters);
