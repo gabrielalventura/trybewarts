@@ -51,7 +51,7 @@ main {
   justify-content: space-around;
 }
 
-form {
+.show {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: larger;
   display: flex;
@@ -150,3 +150,4 @@ footer {
   margin-left: 100px;
   text-align: center;
 }
+

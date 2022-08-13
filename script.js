@@ -1,8 +1,13 @@
+const email = document.querySelector('.email');
+const password = document.querySelector('.password');
+const box = document.getElementById('agreement');
+const btnEntry = document.querySelector('.entry');
+const btnSend = document.getElementById('submit-btn');
+const theText = document.querySelector('#textarea');
+const counterCha = document.querySelector('#counter');
+
 // eslint-disable-next-line func-names
 window.onload = function () {
-  const email = document.querySelector('.email');
-  const password = document.querySelector('.password');
-
   function fillForm() {
     if (email.value === 'tryber@teste.com' && password.value === '123456') {
       alert('Olá, Tryber!');
@@ -10,12 +15,8 @@ window.onload = function () {
       alert('Email ou senha inválidos.');
     }
   }
-
-  const btnEntry = document.querySelector('.entry');
   btnEntry.addEventListener('click', fillForm);
-  
-  const btnSend = document.getElementById('submit-btn');
-  
+
   function enableButton() {
     if (box.checked) {
       btnSend.disabled = false;
@@ -23,14 +24,8 @@ window.onload = function () {
       btnSend.disabled = true;
     }
   }
-  
-  const box = document.getElementById('agreement');
   box.addEventListener('change', enableButton);
-  
 };
-
-const theText = document.querySelector('#textarea');
-const counterCha = document.querySelector('#counter');
 
 function countingCharacters() {
   const count = theText.value.length;
