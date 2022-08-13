@@ -13,6 +13,20 @@ window.onload = function () {
 
   const btnEntry = document.querySelector('.entry');
   btnEntry.addEventListener('click', fillForm);
+  
+  const btnSend = document.getElementById('submit-btn');
+  
+  function enableButton() {
+    if (box.checked) {
+      btnSend.disabled = false;
+    } else {
+      btnSend.disabled = true;
+    }
+  }
+  
+  const box = document.getElementById('agreement');
+  box.addEventListener('change', enableButton);
+  
 };
 
 const theText = document.querySelector('#textarea');
