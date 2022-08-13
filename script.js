@@ -12,7 +12,7 @@ const savedHouse = document.querySelector('#house');
 const savedFamily = document.querySelector('#botoes');
 const savedSubjects = document.querySelector('#q2');
 const savedEvaluation = document.querySelector('#avalia');
-const savedComment = document.querySelector('.textarea');
+const savedComment = document.querySelector('#textarea');
 const mainForm = document.querySelector('#evaluation-form');
 const secondForm = document.querySelector('#form-data');
 
@@ -61,8 +61,7 @@ function choosingSubjects() {
       selectedsSubjects.push(`${allSubjects[index].value}`);
     }
   }
-  const subjects = `${selectedsSubjects}`;
-  return subjects;
+  return `Matérias:${selectedsSubjects}`;
 }
 
 function choosingEvaluation() {
@@ -85,7 +84,7 @@ function swapDisplay(fill) {
   const choosedFamily = document.querySelector('#choosedFamily');
   choosedFamily.innerText = `Família: ${choosingFamily()}`;
   const theSubjects = document.querySelector('#selectedSubjects');
-  theSubjects.innerText = `Matérias: ${choosingSubjects()}`;
+  theSubjects.innerText = choosingSubjects();
   const choosedEvaluation = document.querySelector('#evaluation');
   choosedEvaluation.innerText = `Avaliação: ${choosingEvaluation()}`;
   const yourComment = document.querySelector('#comments');
