@@ -39,6 +39,7 @@ body {
   justify-content: space-between;
   background-color: rgb(50, 167, 145);
   margin-bottom: 100px;
+  align-items: center;
 }
 
 .trybewarts-header-logo {
@@ -68,7 +69,7 @@ main {
 #trybewarts-forms-logo {
   height: 500px;
   margin-left: 20px;
-  width: 300px;
+  width: 350px;
 }
 
 #line1 {
@@ -149,8 +150,13 @@ main {
 footer {
   margin-left: 100px;
   text-align: center;
+  margin-top: 5%;
 }
 
 .dontShow {
   display: none;
+}
+
+h1 {
+  color: white;
 }

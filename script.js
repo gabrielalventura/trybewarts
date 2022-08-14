@@ -90,8 +90,7 @@ function swapDisplay(fill) {
   const yourComment = document.querySelector('#comments');
   yourComment.innerText = `Observações: ${savedComment.value}`;
   mainForm.classList.toggle('dontShow');
-  secondForm.classList.remove('dontShow');
-  secondForm.classList.add('show');
+  secondForm.classList.replace('dontShow', 'show');
 }
 
 btnSend.addEventListener('click', swapDisplay);
